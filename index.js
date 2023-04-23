@@ -56,7 +56,7 @@ function refineSet(setData) {
 }
 
 function writeToFile(textArr, setCode) {
-  const outputDir = "./output";
+  const outputDir = path.join(__dirname, `./output`);
   const outputFile = path.join(__dirname, `./output/${setCode}.md`);
 
   // Add title line to array
