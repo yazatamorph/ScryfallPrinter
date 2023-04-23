@@ -1,7 +1,7 @@
 {
   "name": "scryfallprinter",
   "version": "1.0.0",
-  "description": "Prints markdown of MtG set list from Scryfall API output",
+  "description": "Prints markdown of MtG set lists from Scryfall API output",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
